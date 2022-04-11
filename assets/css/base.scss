@@ -1,0 +1,15 @@
+body {
+  background-color: pink;
+  // background-color: #fff;
+}
+.menu {
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  span {
+    color: red;
+  }
+  // .menu {
+  //   display: block;
+  // }
+}
