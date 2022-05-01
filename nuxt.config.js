@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Maserati-玛莎拉蒂中国官网丨生而无界,定义意式态度先锋',
+    title: 'razzh部署项目测试',
     htmlAttrs: {
       lang: 'en'
     },
@@ -48,5 +48,9 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+  server: {
+    port: 9001,
+    host: '0.0.0.0'
   }
 }
